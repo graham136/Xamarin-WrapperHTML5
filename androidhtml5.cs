@@ -19,7 +19,6 @@ namespace App2
         {
             base.OnCreate(savedInstanceState);
 
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
             WebView localWebView = FindViewById<WebView>(Resource.Id.webView12); // found localwebview
             localWebView.Settings.JavaScriptEnabled = true;// enabled javascript
